@@ -8,7 +8,10 @@
   <include file="$(find servingbot_bringup)/launch/servingbot_remote.launch"/>
 
   <!-- Map server -->
-  <node pkg="map_server" name="map_server" type="map_server" args="$(arg map_file)"/>
+  <!-- node pkg="map_server" name="map_server" type="map_server" args="$(arg map_file)"/-->
+  <node name="map_server" pkg="map_server" type="map_server" args="$(find zetabank_gazebo)/map/simul_map.yaml" output="screen">
+        <param name="frame_id" value="/map"/>
+    </node>
 
   <!-- AMCL -->
   <include file="$(find servingbot_navigation)/launch/amcl.launch"/>

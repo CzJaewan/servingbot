@@ -62,8 +62,7 @@
     <material>Gazebo/FlatBlack</material>
   </gazebo>
 
-
-  <gazebo reference="caster_back_right_link">
+  <gazebo reference="caster_back_link">
     <mu1>0.1</mu1>
     <mu2>0.1</mu2>
     <kp>1000000.0</kp>
@@ -72,17 +71,6 @@
     <maxVel>1.0</maxVel>
     <material>Gazebo/FlatBlack</material>
   </gazebo>
-
-  <gazebo reference="caster_back_left_link">
-    <mu1>0.1</mu1>
-    <mu2>0.1</mu2>
-    <kp>1000000.0</kp>
-    <kd>100.0</kd>
-    <minDepth>0.001</minDepth>
-    <maxVel>1.0</maxVel>
-    <material>Gazebo/FlatBlack</material>
-  </gazebo>
-
 
   <gazebo>
     <plugin name="imu_plugin" filename="libgazebo_ros_imu.so">
@@ -155,7 +143,5 @@
       </plugin>
     </sensor>
   </gazebo>
-
-
 
 </robot>

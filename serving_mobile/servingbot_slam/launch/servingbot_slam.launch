@@ -9,7 +9,7 @@
   </include>
 
   <!-- SLAM: Gmapping, Cartographer, Hector, Karto, Frontier_exploration, RTAB-Map -->
-  <include file="$(find servingbot_slam)/launch/servingbot_gmapping.launch">
+  <include file="$(find servingbot_slam)/launch/servingbot_sick_gmapping.launch">
     <!--param name="model" value="waffle"/-->
     <arg name="configuration_basename" value="$(arg configuration_basename)"/>
   </include>
