@@ -15,6 +15,11 @@ for servingbot robot</p>
   <run_depend>rviz</run_depend>
   <run_depend>joint_state_publisher</run_depend>
   <run_depend>gazebo</run_depend>
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>urdf</build_depend>
+  <build_depend>xacro</build_depend>
+  <run_depend>urdf</run_depend>
+  <run_depend>xacro</run_depend>
   <export>
     <architecture_independent />
   </export>
