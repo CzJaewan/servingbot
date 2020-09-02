@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 image: rl_map.pgm
 resolution: 0.050000
 origin: [-10.000000, -10.000000, 0.000000]
@@ -6,12 +5,3 @@ negate: 0
 occupied_thresh: 0.65
 free_thresh: 0.196
 
-=======
-image: rl_map.pgm
-resolution: 0.050000
-origin: [-10.000000, -10.000000, 0.000000]
-negate: 0
-occupied_thresh: 0.65
-free_thresh: 0.196
-
->>>>>>> 80fafc819a0753ed1204de4e163596fdf3e497fe
