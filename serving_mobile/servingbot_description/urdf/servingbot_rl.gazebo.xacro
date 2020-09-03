@@ -124,7 +124,7 @@
     <material>Gazebo/FlatBlack</material>
     <sensor type="gpu_ray" name="lds_lfcd_sensor">
       <pose>0 0 0 0 0 1.57079631</pose>
-      <visualize>true</visualize>
+      <visualize>$(arg lidar_visual)</visualize>
       <update_rate>1500</update_rate>
       <ray>
         <scan>
@@ -146,7 +146,7 @@
           <stddev>0.01</stddev>
         </noise>
       </ray>
-      <plugin name="gazebo_ros_lds_lfcd_controller" filename="libgazebo_gpu_ros_laser.so">
+      <plugin name="gazebo_ros_lds_lfcd_controller" filename="libgazebo_ros_gpu_laser.so">
         <topicName>/scan</topicName>
         <frameName>lidar_link</frameName>
       </plugin>
