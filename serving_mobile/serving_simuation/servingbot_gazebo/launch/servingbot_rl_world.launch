@@ -1,5 +1,4 @@
 <launch>
-
   <arg name="x_pos" default="0.0"/>
   <arg name="y_pos" default="0.0"/>
   <arg name="z_pos" default="0.0"/>
@@ -7,7 +6,6 @@
   <arg name="pitch" default="0.0"/>
   <arg name="yaw" default="0.0"/>
   <arg name="map"  default="empty" doc="opt: empty"/> 
-
 
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
     <arg name="world_name" value="$(find servingbot_gazebo)/models/temp_world.world" if="$(eval map == 'empty')" />

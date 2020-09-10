@@ -2184,5 +2184,435 @@
       </link>
     </model>
 
+    <actor name="actor_0">
+      <skin>
+        <filename>walk.dae</filename>
+      </skin>
+      <link name='link'>
+
+        <collision name='actor_0_Collision'>
+          <geometry>
+            <box>
+              <size>1 1 2.5</size>
+            </box>
+          </geometry>
+          <pose frame=''>0 0 1.25 0 -0 0</pose>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+      </link>
+
+      <animation name="walking_0">
+        <filename>walk.dae</filename>
+        <interpolate_x>true</interpolate_x>
+      </animation>
+      <script>
+        <loop>true</loop>
+        <trajectory id="0" type="walking_0">
+          <waypoint>
+            <time>0</time>
+            <pose>2 0 0 0 0 -1.57</pose>
+          </waypoint>
+          <waypoint>
+            <time>2</time>
+            <pose>2 -1 0 0 0 -1.57</pose>
+          </waypoint>
+          <waypoint>
+            <time>4</time>
+            <pose>2 -2 0 0 0 -1.57</pose>
+          </waypoint>
+          <waypoint>
+            <time>6</time>
+            <pose>2 -2 0 0 0 1.57</pose>
+          </waypoint>
+          <waypoint>
+            <time>8</time>
+            <pose>2 -1 0 0 0 1.57</pose>
+          </waypoint>
+          <waypoint>
+            <time>10</time>
+            <pose>2 0 0 0 0 1.57</pose>
+          </waypoint>
+          <waypoint>
+            <time>12</time>
+            <pose>2 1 0 0 0 1.57</pose>
+          </waypoint>
+          <waypoint>
+            <time>14</time>
+            <pose>2 2 0 0 0 1.57</pose>
+          </waypoint>
+          <waypoint>
+            <time>16</time>
+            <pose>2 2 0 0 0 -1.57</pose>
+          </waypoint>
+          <waypoint>
+            <time>18</time>
+            <pose>2 1 0 0 0 -1.57</pose>
+          </waypoint>
+          <waypoint>
+            <time>20</time>
+            <pose>2 0 0 0 0 -1.57</pose>
+          </waypoint>
+        </trajectory>
+      </script>
+    </actor>
+
+    <actor name="actor_1">
+      <skin>
+        <filename>walk.dae</filename>
+      </skin>
+      <link name='link'>
+
+        <collision name='actor_1_Collision'>
+          <geometry>
+            <box>
+              <size>1 1 2.5</size>
+            </box>
+          </geometry>
+          <pose frame=''>0 0 1.25 0 -0 0</pose>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+      </link>
+
+      <animation name="walking_1">
+        <filename>walk.dae</filename>
+        <interpolate_x>true</interpolate_x>
+      </animation>
+      <script>
+        <loop>true</loop>
+        <trajectory id="0" type="walking_1">
+          <waypoint>
+            <time>0</time>
+            <pose>5 -1 0 0 0 1.57</pose>
+          </waypoint>
+          <waypoint>
+            <time>2</time>
+            <pose>5 0 0 0 0 1.57</pose>
+          </waypoint>
+          <waypoint>
+            <time>4</time>
+            <pose>5 1 0 0 0 1.57</pose>
+          </waypoint>
+          <waypoint>
+            <time>6</time>
+            <pose>5 1 0 0 0 -1.57</pose>
+          </waypoint>
+          <waypoint>
+            <time>8</time>
+            <pose>5 0 0 0 0 -1.57</pose>
+          </waypoint>
+          <waypoint>
+            <time>10</time>
+            <pose>5 -1 0 0 0 -1.57</pose>
+          </waypoint>
+          <waypoint>
+            <time>12</time>
+            <pose>5 -2 0 0 0 -1.57</pose>
+          </waypoint>
+          <waypoint>
+            <time>14</time>
+            <pose>5 -3 0 0 0 -1.57</pose>
+          </waypoint>
+          <waypoint>
+            <time>16</time>
+            <pose>5 -3 0 0 0 1.57</pose>
+          </waypoint>
+          <waypoint>
+            <time>18</time>
+            <pose>5 -2 0 0 0 1.57</pose>
+          </waypoint>
+          <waypoint>
+            <time>20</time>
+            <pose>5 -1 0 0 0 1.57</pose>
+          </waypoint>
+        </trajectory>
+      </script>
+    </actor>
+
+    <actor name="actor_2">
+      <skin>
+        <filename>walk.dae</filename>
+      </skin>
+      <link name='link'>
+
+        <collision name='actor_2_Collision'>
+          <geometry>
+            <box>
+              <size>1 1 2.5</size>
+            </box>
+          </geometry>
+          <pose frame=''>0 0 1.25 0 -0 0</pose>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+      </link>
+
+      <animation name="walking_2">
+        <filename>walk.dae</filename>
+        <interpolate_x>true</interpolate_x>
+      </animation>
+      <script>
+        <loop>true</loop>
+        <trajectory id="0" type="walking_2">
+          <waypoint>
+            <time>0</time>
+            <pose>10 1 0 0 0 -1.57</pose>
+          </waypoint>
+          <waypoint>
+            <time>10</time>
+            <pose>10 -3 0 0 0 -1.57</pose>
+          </waypoint>
+          <waypoint>
+            <time>12</time>
+            <pose>10 -3 0 0 0 1.57</pose>
+          </waypoint>
+          <waypoint>
+            <time>18</time>
+            <pose>10 1 0 0 0 1.57</pose>
+          </waypoint>
+          <waypoint>
+            <time>20</time>
+            <pose>10 1 0 0 0 -1.57</pose>
+          </waypoint>
+        
+        </trajectory>
+      </script>
+    </actor>
+
+    <actor name="actor_3">
+      <skin>
+        <filename>walk.dae</filename>
+      </skin>
+      <link name='link'>
+
+        <collision name='actor_3_Collision'>
+          <geometry>
+            <box>
+              <size>1 1 2.5</size>
+            </box>
+          </geometry>
+          <pose frame=''>0 0 1.25 0 -0 0</pose>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+      </link>
+
+      <animation name="walking_3">
+        <filename>walk.dae</filename>
+        <interpolate_x>true</interpolate_x>
+      </animation>
+      <script>
+        <loop>true</loop>
+        <trajectory id="0" type="walking_3">
+          <waypoint>
+            <time>0</time>
+            <pose>12 5 0 0 0 -1.57</pose>
+          </waypoint>
+          <waypoint>
+            <time>10</time>
+            <pose>8 -3 0 0 0 -1.57</pose>
+          </waypoint>
+          <waypoint>
+            <time>12</time>
+            <pose>8 -3 0 0 0 1.57</pose>
+          </waypoint>
+          <waypoint>
+            <time>18</time>
+            <pose>12 5 0 0 0 1.57</pose>
+          </waypoint>
+          <waypoint>
+            <time>20</time>
+            <pose>12 5 0 0 0 -1.57</pose>
+          </waypoint>
+        </trajectory>
+      </script>
+    </actor>
+
+
+    <actor name="actor_4">
+      <skin>
+        <filename>walk.dae</filename>
+      </skin>
+      <link name='link'>
+
+        <collision name='actor_4_Collision'>
+          <geometry>
+            <box>
+              <size>1 1 2.5</size>
+            </box>
+          </geometry>
+          <pose frame=''>0 0 1.25 0 -0 0</pose>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+      </link>
+
+      <animation name="walking_4">
+        <filename>walk.dae</filename>
+        <interpolate_x>true</interpolate_x>
+      </animation>
+      <script>
+        <loop>true</loop>
+        <trajectory id="0" type="walking_4">
+          <waypoint>
+            <time>0</time>
+            <pose>12 -2 0 0 0 3.14</pose>
+          </waypoint>
+          <waypoint>
+            <time>14</time>
+            <pose>1 -4 0 0 0 3.14</pose>
+          </waypoint>
+          <waypoint>
+            <time>16</time>
+            <pose>1 -4 0 0 0 0</pose>
+          </waypoint>
+          <waypoint>
+            <time>30</time>
+            <pose>12 -2 0 0 0 0</pose>
+          </waypoint>
+          <waypoint>
+            <time>32</time>
+            <pose>12 -2 0 0 0 3.14</pose>
+          </waypoint>
+        </trajectory>
+      </script>
+    </actor>
+
+    <actor name="actor_5">
+      <skin>
+        <filename>walk.dae</filename>
+      </skin>
+      <link name='link'>
+        <collision name='actor_5_Collision'>
+          <geometry>
+            <box>
+              <size>1 1 2.5</size>
+            </box>
+          </geometry>
+          <pose frame=''>0 0 1.25 0 -0 0</pose>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+      </link>
+
+      <animation name="sq_walk">
+        <filename>walk.dae</filename>
+        <interpolate_x>true</interpolate_x>
+      </animation>
+      <script>
+        <loop>true</loop>
+        <trajectory id="0" type="sq_walk">
+          <waypoint>
+            <time>0</time>
+            <pose>-5 -3 0 0 0 0 </pose>
+          </waypoint>
+          <waypoint>
+            <time>10</time>
+            <pose>1 -1 0 0 0 0</pose>
+          </waypoint>
+          
+          <waypoint>
+            <time>11</time>
+            <pose>1 -1 0 0 0 -1.57</pose>
+          </waypoint>
+          
+          <waypoint>
+            <time>17</time>
+            <pose>3 -5 0 0 0 -1.57</pose>
+          </waypoint>
+          <waypoint>
+            <time>18</time>
+            <pose>3 -5 0 0 0 3.14</pose>
+          </waypoint>
+          <waypoint>
+            <time>24</time>
+            <pose>-3 -6 0 0 0 3.14</pose>
+          </waypoint>
+
+          <waypoint>
+            <time>25</time>
+            <pose>-3 -6 0 0 0 1.57</pose>
+          </waypoint>
+
+          <waypoint>
+            <time>31</time>
+            <pose>-5 -3 0 0 0 1.57</pose>
+          </waypoint>
+          <waypoint>
+            <time>32</time>
+            <pose>-5 -3 0 0 0 0</pose>
+          </waypoint>
+
+        </trajectory>
+      </script>
+    </actor>
+
   </world>
 </sdf>
